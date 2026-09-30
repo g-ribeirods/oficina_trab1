@@ -154,15 +154,6 @@ pytest                            # testes das métricas e das regras de recomen
 
 As capas vêm da Open Library (pelo ISBN) e exigem internet; sem elas, o cartão mostra um gradiente com a inicial do título.
 
-### Roteiro sugerido para a demonstração
-
-1. Apresentar o problema e a base na aba **Visão geral** (números, etapas do método, funil do tratamento).
-2. Escolher um usuário, mostrar o **Histórico** e depois as **Recomendações** (destacar que nada do histórico se repete e a justificativa).
-3. Ativar **Comparar com o baseline de popularidade** nas recomendações e trocar o modelo (item-based → user-based).
-4. Selecionar **Novo usuário (sem histórico)**: aparecem os populares.
-5. Na aba **Avaliar livros**, avaliar 3 ou 4 livros e ver as recomendações passarem a ser personalizadas.
-6. Fechar na aba **Resultados** com as métricas.
-
 ## Estrutura
 
 ```
